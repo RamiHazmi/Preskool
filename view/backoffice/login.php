@@ -21,14 +21,10 @@ include_once __DIR__ . '/../../database.php';
 // --- CONFIGURATION OAuth ---
 
 // Google OAuth
-$google_client_id = '964101948383-ou475p8dpsjhcbfdinj208hemmfi655i.apps.googleusercontent.com';
-$google_client_secret = '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';
-$google_redirect_uri = 'http://localhost/stage/view/backoffice/login.php?provider=google';
+
 
 // Facebook OAuth
-$fb_client_id = '1263525385145438';
-$fb_client_secret = '1c4d0be486900d4d327ab10e88a9c7d1';
-$fb_redirect_uri = 'http://localhost/stage/view/backoffice/login.php?provider=facebook';
+
 
 // Helper PDO connection
 function getPDO() {
